@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/notroot/.vim.v1'
+let g:netrw_dirhist_2='/usr/lib/ckan/default/src/ckan/ckan/plugins'
+let g:netrw_dirhist_3='/usr/lib/ckan/default/lib/python2.7/site-packages/genshi'
+let g:netrw_dirhist_4='/usr/lib/ckan/default/lib/python2.7/site-packages/webhelpers/pylonslib'
+let g:netrw_dirhist_5='/usr/lib/ckan/default/lib/python2.7/site-packages/Pylons-0.9.7-py2.7.egg-info'
+let g:netrw_dirhist_6='/etc/ckan/default'
