@@ -11,7 +11,7 @@ Make sure you have already installed pip.
 
 Execute following instructions to install plugins.
 
-1. git clone --recursive https://github.com/CletusLee/.vim.git
+1. git clone --recursive https://github.com/CletusLee/.vim.git ~/.vim
 2. ln -s ~/.vim/vimrc ~/.vimrc
 3. sudo pip install jedi
 4. sudo apt-get install exuberant-ctags
