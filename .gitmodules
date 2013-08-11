@@ -43,3 +43,6 @@
 [submodule "/home/notroot/.vim/bundle/easymotion"]
 	path = /home/notroot/.vim/bundle/easymotion
 	url = https://github.com/Lokaltog/vim-easymotion
+[submodule "/home/notroot/.vim/bundle/yankring"]
+	path = /home/notroot/.vim/bundle/yankring
+	url = https://github.com/vim-scripts/YankRing.vim.git

@@ -217,4 +217,5 @@ nmap <silent><Leader>te <Esc>:Pytest error<CR>
 " Gundo(Revision history)
 nnoremap <F5> :GundoToggle<CR>
 
-" Fugitive
+" yankring
+noremap <Leader>y :YRShow<CR>  " Show yank history
