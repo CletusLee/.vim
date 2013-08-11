@@ -40,3 +40,6 @@
 [submodule "/home/notroot/.vim/bundle/supertab"]
 	path = /home/notroot/.vim/bundle/supertab
 	url = https://github.com/ervandew/supertab
+[submodule "/home/notroot/.vim/bundle/easymotion"]
+	path = /home/notroot/.vim/bundle/easymotion
+	url = https://github.com/Lokaltog/vim-easymotion
