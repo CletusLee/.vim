@@ -218,4 +218,7 @@ nmap <silent><Leader>te <Esc>:Pytest error<CR>
 nnoremap <F5> :GundoToggle<CR>
 
 " yankring
-noremap <Leader>y :YRShow<CR>  " Show yank history
+nmap <Leader>y :YRShow<CR> 
+
+" ctrl
+nmap <Leader>f :CtrlPCurFile<CR>
