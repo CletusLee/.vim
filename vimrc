@@ -28,7 +28,7 @@ inoremap <C-n> :nohl<CR>
 
 
 " Quicksave command
-noremap <C-Z> :update<CR>
+noremap <C-U> :update<CR>
 vnoremap <C-Z> <C-C>:update<CR>
 inoremap <C-Z> <C-O>:update<CR>
 
@@ -197,10 +197,11 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 set nofoldenable
 
 " NERDTree
-nnoremap <silent> <F6> :NERDTree<CR>
+"nnoremap <silent> <F6> :NERDTree<CR>
+nnoremap <Leader>wn :NERDTree<CR>
 
 " TagBar
-nmap <F8> :TagbarToggle<CR>
+nmap <Leader>wt :TagbarToggle<CR>
 let g:tagbar_left=1 " move the bar to the left
 
 " Pytest
@@ -215,7 +216,7 @@ nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
 nmap <silent><Leader>te <Esc>:Pytest error<CR>
 
 " Gundo(Revision history)
-nnoremap <F5> :GundoToggle<CR>
+nnoremap <Leader>wg :GundoToggle<CR>
 
 " yankring
 nmap <Leader>y :YRShow<CR> 
