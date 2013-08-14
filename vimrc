@@ -28,8 +28,8 @@ inoremap <C-n> :nohl<CR>
 
 
 " Quicksave command
-noremap <C-U> :update<CR>
-vnoremap <C-Z> <C-C>:update<CR>
+noremap <C-O> :update<CR>
+vnoremap <C-Z> <C-O>:update<CR>
 inoremap <C-Z> <C-O>:update<CR>
 
 
