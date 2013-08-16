@@ -445,3 +445,6 @@ nmap <Leader>y :YRShow<CR>
 
 " ctrl
 nmap <Leader>f :CtrlPCurFile<CR>
+
+" Pylint
+nmap <Leader>af :PyLintAuto<CR>
