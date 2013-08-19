@@ -169,6 +169,7 @@ let g:jedi#popup_on_dot = 0
 let g:jedi#popup_select_first = 0
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 let g:jedi#autocompletion_command = "<leader>a"
+let g:jedi#rename_command = "<leader><leader>r"
 
 " Better navigating through omnicomplete option list
 " See http://stackoverflow.com/questions/2170023/how-to-map-keys-for-popup-menu-in-vim
@@ -251,9 +252,9 @@ inoremap <C-j> :nohl<CR>
 
 
 " Quicksave command
-noremap <C-Z>  :update<CR>
-vnoremap <C-Z> <C-O>:update<CR>
-inoremap <C-Z> <C-O>:update<CR>
+noremap <C-U>  :update<CR>
+vnoremap <C-U> <C-O>:update<CR>
+inoremap <C-U> <C-O>:update<CR>
 
 
 " Quick quit command
