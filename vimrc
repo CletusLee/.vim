@@ -251,9 +251,9 @@ inoremap <C-j> :nohl<CR>
 
 
 " Quicksave command
-noremap <C-C> <C-O> :update<CR>
-vnoremap <C-C> <C-O>:update<CR>
-inoremap <C-C> <C-O>:update<CR>
+noremap <C-Z>  :update<CR>
+vnoremap <C-Z> <C-O>:update<CR>
+inoremap <C-Z> <C-O>:update<CR>
 
 
 " Quick quit command
