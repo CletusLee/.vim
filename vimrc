@@ -449,3 +449,12 @@ nmap <Leader>f :CtrlPCurFile<CR>
 
 " Pylint
 nmap <Leader>af :PyLintAuto<CR>
+
+" fugitive
+nmap gw :Gwrite<CR> 
+nmap gr :Gread<CR> 
+nmap gd :Gremove<CR> 
+nmap gm :Gmove<CR> 
+nmap gc :Gcommit<CR> 
+nmap gb :Gblame<CR> 
+nmap gs :Gstatus<CR> 
