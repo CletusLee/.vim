@@ -21,8 +21,8 @@ let mapleader = ","
 
 " save file
 noremap <C-U> :update<CR>
-vnoremap <C-U><C-O> :update<CR>
-inoremap <C-U><C-O> :update<CR>
+vnoremap <C-U> <C-O>:update<CR>
+inoremap <C-U> <C-O>:update<CR>
 
 noremap <Leader>j :nohl<CR>
 vnoremap <Leader>j :nohl<CR>
@@ -212,13 +212,13 @@ nmap <Leader>f :CtrlPCurFile<CR>
 " Pytest
 
 " Execute the tests
-nmap tf <Esc>:Pytest file<CR>
-nmap tc <Esc>:Pytest class<CR>
-nmap tm <Esc>:Pytest method<CR>
+nmap <silent>tf <Esc>:Pytest file<CR>
+nmap <silent>tc <Esc>:Pytest class<CR>
+nmap <silent>tm <Esc>:Pytest method<CR>
 " cycle through test errors
-nmap tn <Esc>:Pytest next<CR>
-nmap tp <Esc>:Pytest previous<CR>
-nmap te <Esc>:Pytest error<CR>
+nmap <silent>tn <Esc>:Pytest next<CR>
+nmap <silent>tp <Esc>:Pytest previous<CR>
+nmap <silent>te <Esc>:Pytest error<CR>
 
 " yankring
 nmap <Leader>y :YRShow<CR> 
@@ -227,11 +227,11 @@ nmap <Leader>y :YRShow<CR>
 nmap <Leader>af :PyLintAuto<CR>
 
 " fugitive
-nmap gw :Gwrite<CR> 
-nmap gr :Gread<CR> 
-nmap gd :Gremove<CR> 
-nmap gm :Gmove<CR> 
-nmap gc :Gcommit<CR> 
-nmap gb :Gblame<CR> 
-nmap gs :Gstatus<CR> 
-nmap gf :Git flow 
+nmap gw <Esc>:Gwrite<CR> 
+nmap gr <Esc>:Gread<CR> 
+nmap gd <Esc>:Gremove<CR> 
+nmap gm <Esc>:Gmove<CR> 
+nmap gc <Esc>:Gcommit<CR> 
+nmap gb <Esc>:Gblame<CR> 
+nmap gs <Esc>:Gstatus<CR> 
+nmap gf <Esc>:Git flow 
