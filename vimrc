@@ -227,11 +227,15 @@ nmap <Leader>y :YRShow<CR>
 nmap <Leader>af :PyLintAuto<CR>
 
 " fugitive
-nmap gw <Esc>:Gwrite<CR> 
+nmap ga <Esc>:Gwrite<CR> 
 nmap gr <Esc>:Gread<CR> 
 nmap gd <Esc>:Gremove<CR> 
 nmap gm <Esc>:Gmove<CR> 
 nmap gc <Esc>:Gcommit<CR> 
+nmap gu <Esc>:Gwrite<CR><Esc>:Gcommit<CR> 
 nmap gb <Esc>:Gblame<CR> 
 nmap gs <Esc>:Gstatus<CR> 
 nmap gf <Esc>:Git flow 
+
+" this depends on the config of git
+nmap gg <Esc>:Git lg2<CR> 
