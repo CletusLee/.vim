@@ -16,3 +16,5 @@ Execute following instructions to install plugins.
 3. sudo pip install jedi
 4. sudo apt-get install exuberant-ctags
 5. sudo pip install -U pytest
+6. sudo pip install dbgp vim-debug
+7. install-vim-debug.py

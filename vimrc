@@ -239,3 +239,13 @@ nmap gf <Esc>:Git flow
 
 " this depends on the config of git
 nmap gg <Esc>:Git lg2<CR> 
+
+" vim-debug
+map <F5> :Dbg into<CR>
+map <F6> :Dbg over<CR>
+map <F7> :Dbg out<CR>
+map <F8> :Dbg run<CR>
+map <F9> :Dbg break<CR>
+map <F10> :Dbg eval<CR>
+map <F11> :Dbg .<CR>
+map <F12> :Dbg quit<CR>
