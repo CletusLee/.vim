@@ -48,3 +48,6 @@
 	path = bundle/yankring
 	url = https://github.com/vim-scripts/YankRing.vim.git
     ignore = dirty
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
