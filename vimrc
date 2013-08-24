@@ -238,7 +238,7 @@ nmap gs <Esc>:Gstatus<CR>
 nmap gf <Esc>:Git flow 
 
 " this depends on the config of git
-nmap gg <Esc>:Git lg2<CR> 
+nmap gg <Esc>:Git lg2<CR>
 
 " vim-debug
 map <F5> :Dbg into<CR>
