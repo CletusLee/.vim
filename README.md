@@ -37,23 +37,22 @@ follow these tips to install plugin [YouCompleteMe](https://github.com/Valloric/
 
 Prepare tools for adding a new apt repo
 
-1. sudo apt-get install software-properties-common
-2. sudo apt-get install python-software-properties
+1. sudo apt-get install python-software-properties
 
 Add a new apt repo and upgrade vim to the latest version(should be above 7.4)
 
-3. sudo add-apt-repository ppa:fcwu-tw/ppa
-4. sudo apt-get update
-5. sudo apt-get install vim
+2. sudo add-apt-repository ppa:fcwu-tw/ppa
+3. sudo apt-get update
+4. sudo apt-get install vim
 
 Install the compiler 
 
-6. sudo apt-get install build-essential cmake python-dev
+5. sudo apt-get install build-essential cmake python-dev
 
 compile YCM
 
-7. cd ~/.vim/bundle/YouCompleteMe
-8. ./install.sh --clang-completer
+6. cd ~/.vim/bundle/YouCompleteMe
+7. ./install.sh --clang-completer
 
 
 
