@@ -19,13 +19,21 @@ Execute following instructions to install plugins.
 6. sudo pip install dbgp vim-debug
 7. install-vim-debug.py
 
+(Optional. If you do not want to install YouCompleteMe plugin, following steps
+will lead you to go back to the old version.)
+
+8. git reset --hard v7.3 
+(You might see an error message says some folders cannot be removed)
+9. git clean -fd
+10. cd ~/.vim/bundle
+11. git clean -f -f -d YouCompleteMe
 
 
-
+Installation of YouCompleteMe
+-----------------------------
 
 If you are not satisfied with the auto-complete feature that jedi provides,
-follow these tips to install plugin
-YouCompleteMe.(https://github.com/Valloric/YouCompleteMe)
+follow these tips to install plugin [YouCompleteMe](https://github.com/Valloric/YouCompleteMe).
 
 Prepare tools for adding a new apt repo
 
