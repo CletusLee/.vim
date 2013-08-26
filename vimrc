@@ -126,7 +126,7 @@ call pathogen#infect()
 " ============================================================================
 
 " Hot key for executing
-map <F9> :!python %<CR>
+map <F4> :!python %<CR>
 
 " Settings for vim-powerline
 " cd ~/.vim/bundle
@@ -167,6 +167,8 @@ let g:jedi#popup_select_first = 0
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 let g:jedi#autocompletion_command = "<leader>a"
 let g:jedi#rename_command = "<leader><leader>r"
+let g:jedi#auto_initialization = 0
+
 
 " Better navigating through omnicomplete option list
 " See http://stackoverflow.com/questions/2170023/how-to-map-keys-for-popup-menu-in-vim
@@ -238,7 +240,7 @@ nmap gs <Esc>:Gstatus<CR>
 nmap gf <Esc>:Git flow 
 
 " this depends on the config of git
-nmap gg <Esc>:Git lg2<CR>
+nmap <leader>gg <Esc>:Git lg2<CR>
 
 " vim-debug
 map <F5> :Dbg into<CR>
@@ -253,3 +255,4 @@ map <F12> :Dbg quit<CR>
 let g:ycm_key_list_select_completion = ['<C-TAB>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-S-TAB>', '<Up>']
 let g:SuperTabDefaultCompletionType = '<C-Tab>'
+nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
