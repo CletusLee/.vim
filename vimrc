@@ -167,8 +167,6 @@ let g:jedi#popup_select_first = 0
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 let g:jedi#autocompletion_command = "<leader>a"
 let g:jedi#rename_command = "<leader><leader>r"
-let g:jedi#auto_initialization = 0
-
 
 " Better navigating through omnicomplete option list
 " See http://stackoverflow.com/questions/2170023/how-to-map-keys-for-popup-menu-in-vim
@@ -255,4 +253,4 @@ map <F12> :Dbg quit<CR>
 let g:ycm_key_list_select_completion = ['<C-TAB>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-S-TAB>', '<Up>']
 let g:SuperTabDefaultCompletionType = '<C-Tab>'
-nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap go :YcmCompleter GoToDefinitionElseDeclaration<CR>
