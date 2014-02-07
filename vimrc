@@ -19,6 +19,9 @@ set clipboard=unnamed
 " it is next to ``m`` and ``n`` which I use for navigating between tabs.
 let mapleader = ","
 
+" create a new tab with current page
+map cp :bufdo tab split<CR>
+
 " save file
 noremap <C-U> :update<CR>
 vnoremap <C-U> <C-O>:update<CR>
