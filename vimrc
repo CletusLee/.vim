@@ -241,6 +241,9 @@ nmap gu <Esc>:Gwrite<CR><Esc>:Gcommit<CR>
 nmap gb <Esc>:Gblame<CR> 
 nmap gs <Esc>:Gstatus<CR> 
 nmap gf <Esc>:Git flow 
+map <silent> <leader>2 :diffget 2<CR> :diffupdate<CR>
+map <silent> <leader>3 :diffget 3<CR> :diffupdate<CR>
+map <silent> <leader>4 :diffget 4<CR> :diffupdate<CR>
 
 " this depends on the config of git
 nmap <leader>gg <Esc>:Git lg2<CR>
