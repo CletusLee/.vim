@@ -117,6 +117,8 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" reload the current file
+map <leader>re :edit!<CR>
 
 " Setup Pathogen to manage your plugins
 " mkdir -p ~/.vim/autoload ~/.vim/bundle
