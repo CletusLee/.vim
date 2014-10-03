@@ -55,4 +55,14 @@ compile YCM
 7. ./install.sh --clang-completer
 
 
+Notices
+-------
 
+If the vim you are using is the version of "Small version without GUI", please
+also install following tools:
+
+1. sudo apt-get install vim-gui-common
+2. sudo apt-get install vim-runtime
+
+In order to know whether you are using a "small version", you can call :version
+in Vim to get the information.
